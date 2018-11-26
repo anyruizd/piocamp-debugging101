@@ -1,0 +1,3 @@
+# Detecta argumentos pasados ​​en el orden incorrecto al llamar a una función
+
+El siguiente error a tener en cuenta cuando llamamos una función, es cuando los argumentos los suministramos en el orden incorrecto. Si los argumentos son de tipos diferentes, como una función que espera una matriz y un entero, es probable que se produzca un error en tiempo de ejecución. Si los argumentos son del mismo tipo (todos los enteros, por ejemplo), entonces la lógica del código no tendrá sentido. Asegúrate de proporcionar todos los argumentos necesarios, en el orden correcto para evitar estos problemas.
