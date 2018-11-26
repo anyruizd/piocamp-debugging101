@@ -86,7 +86,7 @@ En esta sección vamos a hablar sobre los errores más comunes que podemos encon
 
 ## A practicar!
 
-Ya que hemos visto varios ejemplos sobre los errores más comunes en Javascript, podemos avanzar a resolver algunos desafíos. Pasa esto sigue los siguientes pasos:
+Ya que hemos visto varios ejemplos sobre los errores más comunes en Javascript, podemos avanzar a resolver algunos desafíos. Para esto sigue los siguientes pasos:
 * Haz fork de este repositorio.🍴
 * Clona tu repositorio en tu computador personal. 💻
 * Empieza el primer desafío ejecutando el siguiente comando en la consola: 🤓
