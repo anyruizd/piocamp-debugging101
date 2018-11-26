@@ -25,7 +25,7 @@ En esta sección vamos a hablar sobre los errores más comunes que podemos encon
   Por ejemplo:
 
   ``` Javascript
-    var package = ["🥗", "🍚", "🍟", "🍗"];
+    var function = ["🥗", "🍚", "🍟", "🍗"];
   ```
 
   ``` Javascript
