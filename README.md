@@ -84,6 +84,16 @@ En esta sección vamos a hablar sobre los errores más comunes que podemos encon
   console.log(meow);
   ```
 
+## A practicar!
+
+Ya que hemos visto varios ejemplos sobre los errores más comunes en Javascript, podemos avanzar a resolver algunos desafíos. Pasa esto sigue los siguientes pasos:
+* Haz fork de este repositorio.🍴
+* Clona tu repositorio en tu computador personal. 💻
+* Empieza el primer desafío ejecutando el siguiente comando en la consola: 🤓
+  `git checkout 1` 
+* Una vez resuelto el primer desafío, puedes continuar con los siguientes ejecutando el mismo comando con los diferentes números de los desafíos. 🎉🎊
+
+
 ## Recursos
 
 * Chrome Dev Tools: https://developers.google.com/web/tools/chrome-devtools/
