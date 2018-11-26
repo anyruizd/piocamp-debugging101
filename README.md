@@ -48,7 +48,7 @@ En esta sección vamos a hablar sobre los errores más comunes que podemos encon
   var x = document.getElementByID('🐞');
   ```
 
-* _Range Error_: Este error se da cuando tratamos de usar un valor que no estaá dentro del rango permitido y también cuando hacemos uso de recursividad infinita. 
+* _Range Error_: Este error se da cuando tratamos de usar un valor que no está dentro del rango permitido y también cuando hacemos uso de recursividad infinita. 
 
   Por ejemplo:
 
