@@ -18,6 +18,75 @@ Primero que todo, vamos a ver tres ejemplos sobre comportamientos extraños de J
 
 ## Detección de Errores
 
+En esta sección vamos a hablar sobre los errores más comunes que podemos encontrar cuando trabajamos con JavaScript y algunos ejemplos sobre sus causas y cómo evitarlos. 
 
+* _Syntax Error_: Este error se da cuando usamos símbolos que no se ajustan a la sintaxis del lenguaje o cuando usamos palabras reservadas para nombrar variables o funciones.
 
+  Por ejemplo:
 
+  ``` Javascript
+    var package = ["🥗", "🍚", "🍟", "🍗"];
+  ```
+
+  ``` Javascript
+    for (let i = 0; i < 5,; ++i) {
+      console.log('I love 🍔');
+    }
+  ```
+
+* _TypeError_: Este error se da cuando lees una propiedad o llamas un método de un objeto que no ha sido definido. 
+
+  Por ejemplo: 
+
+  ``` Javascript
+  var matilda = '🐈';
+  matilda.miau();
+
+  ```
+
+  ``` Javascript
+  var x = document.getElementByID('🐞');
+  ```
+
+* _Range Error_: Este error se da cuando tratamos de usar un valor que no estaá dentro del rango permitido y también cuando hacemos uso de recursividad infinita. 
+
+  Por ejemplo:
+
+  ``` Javascript
+  new Array(-1);
+  ```
+
+  ``` Javascript
+  function loop(x) {
+    if (x >= 1000000000000)
+      return;
+    loop(x + 1);
+  }
+  loop(0);
+  ```
+
+  ```Javascript
+  '🍃️❤️🌊'.repeat(Infinity);
+  ```
+
+* _Reference Error_: Este error se da cuando tratamos de usar una variable que no ha sido definida todavía.
+
+  Por ejemplo:  
+
+  ``` Javascript
+  luna.substring(1);
+  ```
+
+  ``` Javascript
+  function luna() { 
+    var meow; 
+  }
+  console.log(meow);
+  ```
+
+## Recursos
+
+* Chrome Dev Tools: https://developers.google.com/web/tools/chrome-devtools/
+* Lista de Errores: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors
+* Mejorar tus habilidades de Debugging: https://medium.freecodecamp.org/how-to-improve-your-debugging-skills-abb5b363bdb8
+* Consejos para principiantes: https://blog.hartleybrody.com/debugging-code-beginner/
